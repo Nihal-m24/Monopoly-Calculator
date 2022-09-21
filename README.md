@@ -1,10 +1,5 @@
 # Monopoly-Calculator
 
-Purpose: 
-
-The purpose of this app is to allow users to play the electronic banking monopoly game when their physical unit fails to work or when they want to start a new game without restarting the first one.
-
-
 Functionality: 
 
 Users can start multiple new games without compromising the history of the previous games. The app allows basic calculator functionalities (adding and subtracting from the balance) as well as keeping track of each user’s transactions and the purpose of the transactions.
@@ -24,3 +19,7 @@ Looks:
 Supports Dark/Light Mode Dynamic Switching! 
 
 <img src="https://user-images.githubusercontent.com/96053567/189501574-640e0081-9b4a-4b66-abc9-bb9f23bd8481.mp4" width="150" height="325">
+
+Purpose: 
+
+The purpose of this project was to create a custom data model, working with and understanding UserDefaults, understanding light, and Dark mode, and understanding data type conversions ie: String to Integer, and vice versa. 
