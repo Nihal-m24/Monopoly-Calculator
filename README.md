@@ -2,12 +2,12 @@
 
 Purpose: 
 
-The purpose of this app to allow users to play the electronic banking monoploy game when their phiscial unit fails to work or when they want to start a new game without restrating the first one.
+The purpose of this app is to allow users to play the electronic banking monopoly game when their physical unit fails to work or when they want to start a new game without restarting the first one.
 
 
 Functionality: 
 
-Users can start multiple new games without compromising the history of the previos games. The app allows basic calculator functionilies (adding and subtracting from the balance) as well as keeping track of each users transactions and purpose of the transactions.
+Users can start multiple new games without compromising the history of the previous games. The app allows basic calculator functionalities (adding and subtracting from the balance) as well as keeping track of each user’s transactions and the purpose of the transactions.
 
 Looks:
 
@@ -21,11 +21,6 @@ Looks:
 <img src="https://user-images.githubusercontent.com/96053567/189500961-18a74835-c534-4d27-89b2-01e0abe55483.PNG" width="150" height="325">
 <img src="https://user-images.githubusercontent.com/96053567/189500963-40276e16-aecf-4bf9-a72d-b749b09f902d.PNG" width="150" height="325">
 
-Supports Dark/Ligt Mode Dynamic Switching!
+Supports Dark/Light Mode Dynamic Switching! 
 
 <img src="https://user-images.githubusercontent.com/96053567/189501574-640e0081-9b4a-4b66-abc9-bb9f23bd8481.mp4" width="150" height="325">
-
-
-
-
-
