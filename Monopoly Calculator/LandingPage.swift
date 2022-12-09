@@ -45,6 +45,12 @@ struct LandingPage: View {
                                 }
                             }
                             
+                            //Unsure why it wont work without this as it was prevously working
+                            if(allGames.count > 10){
+                                gameBox(game: $allGames[0])
+                                    .hidden()
+                            }
+                            
                             NavigationLink{
                                 AddUsersPage()
                                     .navigationBarHidden(true)
@@ -68,14 +74,16 @@ struct LandingPage: View {
                                 .padding(.trailing, numOfGames > 1 ? 0 : 25)
                             }
                         }
+                        .frame(height: UIScreen.main.bounds.height / 3)
                     }
                     Spacer()
                 }
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                .frame(width: UIScreen.main.bounds.width)
             }
         }
         .onAppear(){
             self.getGames()
+            print(allGames.count)
         }
     }
     
@@ -99,9 +107,7 @@ struct LandingPage: View {
         var arrayOfGameID = gameList.components(separatedBy: "***")
         arrayOfGameID.remove(at: 0)
         if let index = arrayOfGameID.firstIndex(of: gameId){
-            withAnimation(.spring()) {
-                allGames.remove(at: index)
-            }
+            allGames.remove(at: index)
             arrayOfGameID.remove(at: index)
         }
         gameList = ""
